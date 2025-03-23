@@ -21,4 +21,5 @@ PPA: 204.8 GOPs maximum @200MHz, around 100 for yolov5? around 80kLUT and 50kFF 
 binary convolution core and vector floating point coprocessor for non-binary operations.
 PPA: 1024 GOPs peak @250MHz, around xx for reactnet, around 80kLUT and 80 kFF in area, vivado reported power.
 - upgrading the BNN accelerator with RISC-V V compliant coprocessors. targeting both FPGA and ASIC.
+- common building blocks used in both/all of my projects: FIFO,AXI,pheriphrals,memories
 
