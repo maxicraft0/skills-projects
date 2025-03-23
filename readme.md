@@ -1,4 +1,5 @@
 This is a repo for my potential CV content for a VLSI engineer
+specifically for a digital domain
 
 # two basic things
 - one is the programming languages and HDL languages i master
@@ -19,4 +20,5 @@ PPA: 204.8 GOPs maximum @200MHz, around 100 for yolov5? around 80kLUT and 50kFF 
 - a binary neural network accelerator implemented in FPGA, with VLIW controlling system,
 binary convolution core and vector floating point coprocessor for non-binary operations.
 PPA: 1024 GOPs peak @250MHz, around xx for reactnet, around 80kLUT and 80 kFF in area, vivado reported power.
+- upgrading the BNN accelerator with RISC-V V compliant coprocessors. targeting both FPGA and ASIC.
 
