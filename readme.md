@@ -16,10 +16,10 @@ as well as the EDA tools, both commercial and open-souce.
 
 # projects
 - a 8-bit quantized CNN accelerator implemented in FPGA, with VLIW controller system, different kinds of computational cores, pheripherals
-PPA: 204.8 GOPs maximum @200MHz, around 100 for yolov5? around 80kLUT and 50kFF in area. vivado reported power. hand over to a co-worker.
+PPA: 204.8GOPs maximum @200MHz, around 120GOPs@200MHz for yolov5. kLUT/kFF/BRAM/DSP=80/64/192/517. vivado reported power. 
 - a binary neural network accelerator implemented in FPGA, with VLIW controlling system,
-binary convolution core and vector floating point coprocessor for non-binary operations.
-PPA: 1024 GOPs peak @250MHz, around xx for reactnet, around 80kLUT and 80 kFF in area, vivado reported power.
+binary processing core and a vector floating point coprocessor for non-binary operations.
+PPA: 1024GOPs maximum @250MHz, around 633GOPs for reactnet@250MHz, kLUT/kFF/BRAM/DSP=87/132/221/259, vivado reported power.
 - upgrading the BNN accelerator with RISC-V V compliant coprocessors. targeting both FPGA and ASIC.
 - common building blocks used in both/all of my projects: FIFO,AXI,pheriphrals,memories
 
