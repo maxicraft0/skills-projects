@@ -12,4 +12,5 @@ The folder contains the following:
 - mapping/model_extraction for extracting parameter/input data from pytorch
 - mapping/pytools for manual VLIW generation
 - mapping/mapping for transfer to/from the FPGA
+- mapping folder also contains the performance breakdown of ReActNet
 
