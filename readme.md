@@ -4,8 +4,8 @@ specifically for a digital domain
 # skills
 - c/c++, python
 - verilog/systemverilog
-- simulation tools, including [modelsim](./EDA/modelsim.md), VCS, etc
-- frontend tools, [vivado](./EDA/vivado.md) synthesis, synopsys IC
+- simulation tools, including [modelsim](./EDA/modelsim.md), [synopsys](./EDA/synopsys.md) VCS, etc
+- frontend tools, [vivado](./EDA/vivado.md) synthesis, [synopsys](./EDA/synopsys.md) DC
 - backend tools, [vivado](./EDA/vivado.md) P&R, innovus
 
 
