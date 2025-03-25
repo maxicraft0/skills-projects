@@ -1,17 +1,12 @@
 This is a repo for my potential CV content for a VLSI engineer
 specifically for a digital domain
 
-# two basic things
-- one is the programming languages and HDL languages i master
-as well as the EDA tools, both commercial and open-souce.
-- one is the projects that i've gone through, from HDL to implementation.
-
 # skills
 - c/c++, python
 - verilog/systemverilog
 - simulation tools, including modelsim, VCS, etc
-- frontend tools, vivado synthesis, synopsys IC
-- backend tools, vivado P&R, innovus
+- frontend tools, [vivado](./EDA/vivado.md) synthesis, synopsys IC
+- backend tools, [vivado](./EDA/vivado.md) P&R, innovus
 
 
 # projects
