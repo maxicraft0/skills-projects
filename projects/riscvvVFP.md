@@ -14,5 +14,17 @@ so the makefile builder can call the modelsim to start simulation.
 
 we use questasim 10.7c for simulation.
 
+the block diagram of the soc is here.
+
 ![the ara soc system](./res/ara_soc.svg)
+
+## we want to focus on only the CVA6 itself
+we want to simulate the cva6 first then synthesize it using fronend tools.
+
+### the cva6 simulation requirement
+we need a L2 memory, an axi system connect the L2 with cva6.
+
+we need the software under test, and we have to init the L2 upon simulation. 
+
+we can simply remove the ara2 from the block diagram, and remove the mux as well.
 
