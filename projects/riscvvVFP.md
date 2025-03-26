@@ -14,4 +14,5 @@ so the makefile builder can call the modelsim to start simulation.
 
 we use questasim 10.7c for simulation.
 
-[View the draw.io diagram](./res/ara_soc.svg)
+![the ara soc system](./res/ara_soc.svg)
+
