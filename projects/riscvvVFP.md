@@ -11,3 +11,7 @@ The ara2 project is divided into two big parts: a hardware folder and an app fol
 ## Now lets dig into hardware side
 The ara2 hardware folder contains the ara2 itself as well as its various kind of dependencies.
 so the makefile builder can call the modelsim to start simulation.
+
+we use questasim 10.7c for simulation.
+
+[View the draw.io diagram](./res/ara_soc.svg)
