@@ -14,4 +14,5 @@ the project folder contains the following sub-dirs:
 the current hardware architecture is described as follows:
 - the hardware contains a PE module, which perfroms all 8-bit quantized operations in a cnn network
 - the PE module communicate with input reader and output writer transfer data in tiles
+- the controller module read vliw cmd and dispatch the control signal to all modules.
 - the axi-interconnect connects input reader, output writer, sriorx/tx with ddr-mig, vliw-buffer and bias-buffer.
