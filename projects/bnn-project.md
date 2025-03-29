@@ -14,3 +14,10 @@ The folder contains the following:
 - mapping/mapping for transfer to/from the FPGA
 - mapping folder also contains the performance breakdown of ReActNet
 
+The current hardware architecture is described as follows.
+- two main computational modules exist: the BPU and the VFP coprocessor.
+- The BPU perform all binary convolutions.
+- the VFP coprocessor perform floating point operations before and after the binary convolution.
+- axi interconnect connects the in/out dmas, the vliw buffer and ddr-mig.
+- three sub-controllers, controller for BPU, controller for pre-conv and controller for post-conv
+
