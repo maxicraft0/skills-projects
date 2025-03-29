@@ -19,5 +19,6 @@ The current hardware architecture is described as follows.
 - The BPU perform all binary convolutions.
 - the VFP coprocessor perform floating point operations before and after the binary convolution.
 - axi interconnect connects the in/out dmas, the vliw buffer and ddr-mig.
-- three sub-controllers, controller for BPU, controller for pre-conv and controller for post-conv
+- three sub-controllers, controller for BPU, controller for pre-conv and controller for post-conv. The main controller dispatch controll signals to the three sub-controllers.
+- the pre/post conv controller is a little complicated since it has to issue not only instructions but also datas.
 
