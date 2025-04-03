@@ -1,11 +1,19 @@
-Keeping track of how to install EDA tools that is provided by synopsis.
+This page record how to install synopsys EDA tools.
 
-This is the folder synopsys2018 containing all sub-packages of synopsys EDAs.
+Synopsys2018 folder contains all sub-packages of synopsys EDAs.
 
-# usually install a synopsis installer first
-Then we can install other synopsys EDAs using synopsys installer.
+# Install the synopsis installer first
+Use the installer to install other synopsys EDAs.
+
+# set up properly the enviroment viarable
+```
+LM_LICENSE_FILE=xxx;
+PATH=xxx;
+```
+
 
 ## synopsys design compiler(DC)
-
+Start the dc using design_vision.
+This is mainly a tcl command line tool. Should be familiar with tcl cmd.
 
 ## synopsys Functional Verification Solution(VCS)
