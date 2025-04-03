@@ -5,10 +5,15 @@ Synopsys2018 folder contains all sub-packages of synopsys EDAs.
 # Install the synopsis installer first
 Use the installer to install other synopsys EDAs.
 
-# set up properly the enviroment viarable
+# Set up properly the PATH viarable
 ```
-LM_LICENSE_FILE=xxx;
-PATH=xxx;
+export PATH=xxx;
+```
+
+# The license must be provided with lmgrd
+```
+export SNPSLMD_LICENSE_FILE=27000@simon-computer
+alias lmgrd="lmgrd -c /home/simon/EDA/license/synopsys.dat"
 ```
 
 
