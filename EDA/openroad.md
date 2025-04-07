@@ -1,5 +1,5 @@
 We try using openroad as our backend tool for PnR.
-Openroad [https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts] itself presents as a kind of 'framework',
+[Openroad](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts) itself presents as a kind of 'framework',
 that incorporates some of the opensource EDA tools,
 including yosys for synthesis, openroad itself for FP,P,CTS,R,
 and klayout for final completion.
@@ -14,3 +14,7 @@ So, the remaining process are listed as follows:
 - clock tree synthesis, CTS
 - route
 - final
+
+# Installation process
+I just download the prebuilt deb and install it on my ubuntu.
+It only contains the openroad tool itself.
