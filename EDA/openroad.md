@@ -5,7 +5,7 @@ including yosys for synthesis, openroad itself for FP,P,CTS,R,
 and klayout for final completion.
 
 Since i'm more familiar with design compiler, we can do the synthesis process using DC instead of yosys,
-and do the rest using openroad framework.
+and do the rest using openroad framework. Moreover, yosys does not support systemverilog...
 
 So, the remaining process are listed as follows:
 
