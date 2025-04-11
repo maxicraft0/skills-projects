@@ -32,4 +32,8 @@ It only contains the openroad tool itself.
 4. pdn generation. global_connect for pg net connection. set_voltage_domain, then define_pdn_grid for stdcell/macro. pdngen to generate the real pdn structure.
 
 # Placement process
-1. 
+1. global_placement -skip_io to do global placement without io?
+2. place_pins again, the old pin placements will be replaced.
+3. set_wire_rc before global_placement, with -routability_driven -timing_driven.
+4. use cmds such as repair_design to resize the stdcells.
+5. detailed_placement cmd, followed by improve_placement etc...
