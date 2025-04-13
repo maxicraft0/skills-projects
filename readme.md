@@ -1,5 +1,4 @@
-This is a repo for my potential CV content for a VLSI engineer
-specifically for a digital domain
+This is a repo for my CV content for VLSI engineer
 
 # skills
 - c/c++, python
