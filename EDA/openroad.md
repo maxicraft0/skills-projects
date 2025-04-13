@@ -35,5 +35,13 @@ It only contains the openroad tool itself.
 1. global_placement -skip_io to do global placement without io?
 2. place_pins again, the old pin placements will be replaced.
 3. set_wire_rc before global_placement, with -routability_driven -timing_driven.
-4. use cmds such as repair_design to resize the stdcells.
-5. detailed_placement cmd, followed by improve_placement etc...
+4. NOTE that tiecell should be inserted before global placement.
+5. use cmds such as repair_design to resize the stdcells. 
+6. detailed_placement cmd, followed by improve_placement etc...
+
+# Clock Tree SYnthesis
+- this is nothing more other than inserting bufs/invs into the clock path.
+- clock_tree_synthesis, it use set_wire_rc to estimate delay
+- repair_clock_nets and timing after CTS
+
+
