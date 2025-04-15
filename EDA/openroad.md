@@ -45,8 +45,8 @@ It only contains the openroad tool itself.
 - repair_clock_nets and timing after CTS
 
 # Routing
-1. global routing, overflow should be zero after succesful routing.
-2. detailed routing, after several optimizations, DRV is zero.
+1. global routing, overflow should be zero after succesful global routing.
+2. detailed routing, after several rounds of optimizations, DRV come to zero.
 3. filler cell insertion.
 
 
