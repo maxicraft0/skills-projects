@@ -44,4 +44,9 @@ It only contains the openroad tool itself.
 - clock_tree_synthesis, it use set_wire_rc to estimate delay
 - repair_clock_nets and timing after CTS
 
+# Routing
+1. global routing, overflow should be zero after succesful routing.
+2. detailed routing, after several optimizations, DRV is zero.
+3. filler cell insertion.
+
 
