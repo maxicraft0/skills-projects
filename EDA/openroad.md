@@ -48,5 +48,9 @@ It only contains the openroad tool itself.
 1. global routing, overflow should be zero after succesful global routing.
 2. detailed routing, after several rounds of optimizations, DRV come to zero.
 3. filler cell insertion.
+4. timing signoff. openrcx extract_parasitics using a .rules file, and opensta read_spef to analyze timing.
 
+# GDS generation
+1. the def file, which contains the geometry of upper layers, can be generated as output by openroad.
+2. it is a def2stream.py which is called by klayout to generate gds layout.
 
