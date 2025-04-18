@@ -24,6 +24,7 @@ It only contains the openroad tool itself.
 - design constraints
 - lef techfile and macro/cell lef files
 - liberty files, mainly for timing analysis
+- dont forget to link_design after reading input files
 
 # Floorplan process
 1. initialize_floorplan with specified aspect-ratio, utilization, margin, site(the atom space for stdcells). make_tracks the routing tracks.
