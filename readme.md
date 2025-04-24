@@ -5,7 +5,7 @@ This is a repo for my CV content for VLSI engineer
 - verilog/systemverilog
 - simulation tools, including [modelsim](./EDA/modelsim.md), [synopsys](./EDA/synopsys.md) VCS, etc
 - frontend tools, [vivado](./EDA/vivado.md) synthesis, [synopsys](./EDA/synopsys.md) DC
-- backend tools, [vivado](./EDA/vivado.md) P&R, innovus, [openroad](./EDA/openroad.md)
+- backend tools, [vivado](./EDA/vivado.md) P&R, [innovus](./EDA/innovus.md), [openroad](./EDA/openroad.md)
 
 
 # projects
