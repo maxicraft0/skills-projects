@@ -2,6 +2,8 @@ This page record how to install synopsys EDA tools.
 
 Synopsys2018 folder contains all sub-packages of synopsys EDAs.
 
+also can refer to this page https://blog.csdn.net/qq_33589780/article/details/108720685 for installation process
+
 # Install the synopsis installer first
 Use the installer to install other synopsys EDAs.
 1. you see the installer package contains a .run file, run it, specifying the installation directory
