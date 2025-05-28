@@ -10,18 +10,37 @@ Use the installer to install other synopsys EDAs.
 4. i have tickled both common and linux64 for each product
 
 # Set up properly the PATH viarable
+
+## create this shell and source it in .bashrc
 ```
-export PATH=xxx;
+#LICENCE
+export SNPSLMD_LICENSE_FILE=27123@shrd-loan-it10
+alias lmgrd_start='lmgrd -c /data_2t/chenzh/synopsys_scl/synopsys.lic'  #change to your lic file path
+
+#scl
+export PATH=$PATH:/data_2t/chenzh/synopsys_scl/scl/2018.06/linux64/bin    #scl install bin path
+
+#Design Compalier
+# export SYNOPSYS=/home/cjw/synopsys/dc2016           #not sure if this necessary
+export PATH=$PATH:/data_2t/chenzh/synopsys_DC/syn/O-2018.06-SP1/bin     #DC bin path
+# export DC_HOME=/home/cjw/Synopsys/dc2016  # not sure if this necessary
 ```
 
-# The license must be provided with lmgrd
-```
-export SNPSLMD_LICENSE_FILE=27000@simon-computer
-alias lmgrd="lmgrd -c /home/simon/EDA/license/synopsys.dat"
-```
 
 
-## synopsys design compiler(DC)
+# synopsys design compiler(DC)
+
+## need a few tricks upon installation
+installation of DC on redhat linux may need libmng.1,
+but installation using yum require sudo,
+so we install manually
+1. yum list libmng
+2. yumdownloader libmng.x86_64
+3. rpm2cpio libmng-2.0.3-7.el8.x86_64.rpm | cpio -idvm, but this is libmng.2 version, so
+4. ln -s libmng.so.2 libmng.so.1
+5. export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/data_2t/chenzh/usr/lib64
+
+## DC process
 Start the dc using design_vision.
 This is mainly a tcl command line tool. Should be familiar with tcl cmd.
 We can write a read_sv.tcl to analyze all the design files.
