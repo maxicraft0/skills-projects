@@ -4,6 +4,9 @@ Synopsys2018 folder contains all sub-packages of synopsys EDAs.
 
 # Install the synopsis installer first
 Use the installer to install other synopsys EDAs.
+1. you see the installer package contains a .run file, run it, specifying the installation directory
+2. after install, run the setup.sh under the installation path. run setup.sh each for each package installation.
+3. follow this sequence: scl -> other products
 
 # Set up properly the PATH viarable
 ```
