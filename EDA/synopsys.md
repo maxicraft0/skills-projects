@@ -42,6 +42,8 @@ so we install manually
 4. ln -s libmng.so.2 libmng.so.1
 5. export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/data_2t/chenzh/usr/lib64
 
+lc_shell requires a zlib specific version, we just remove the shlib/zlib.so.1 into a backup folder 
+
 ## DC process
 Start the dc using design_vision.
 This is mainly a tcl command line tool. Should be familiar with tcl cmd.
